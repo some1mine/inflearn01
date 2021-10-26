@@ -1,16 +1,22 @@
 {
-  "name": "boiler-plate",
+  "name": "inflearn01",
   "version": "1.0.0",
   "description": "basic-inflearn",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "test": "echo \" Error: no test specified\" && exit 1"
   },
   "author": "jaeu",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "mongodb": "^4.1.3",
     "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
   }
 }
